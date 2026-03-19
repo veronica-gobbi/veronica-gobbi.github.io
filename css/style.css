@@ -69,3 +69,48 @@ h1 {
     background-color: rgba(255, 255, 255, 0.9);
     clip-path: shape(from 0 40px,curve to 8.33% 2px with 5.56% 3px,curve to 13.89% 21px with 11.11% 1px,curve to 19.44% 34.5px with 16.67% 41px,curve to 25% 54px with 22.22% 28px,curve to 30.56% 74.5px with 27.78% 80px,curve to 36.11% 34.5px with 33.33% 69px,curve to 41.67% 5px with 38.89% 0px,curve to 47.22% 27.5px with 44.44% 10px,curve to 52.78% 51.5px with 50% 45px,curve to 58.33% 53px with 55.56% 58px,curve to 63.89% 32.5px with 61.11% 48px,curve to 69.44% 12.5px with 66.67% 17px,curve to 75% 22px with 72.22% 8px,curve to 80.56% 28px with 77.78% 36px,curve to 86.11% 28px with 83.33% 20px,curve to 91.67% 57px with 88.89% 36px,curve to 100% 40px with 94.44% 78px,vline to calc(100% - 40px),curve to 91.67% calc(100% - 60.5px) with 94.44% calc(100% - 70px),curve to 86.11% calc(100% - 42.5px) with 88.89% calc(100% - 51px),curve to 80.56% calc(100% - 33px) with 83.33% calc(100% - 34px),curve to 75% calc(100% - 36.5px) with 77.78% calc(100% - 32px),curve to 69.44% calc(100% - 46.5px) with 72.22% calc(100% - 41px),curve to 63.89% calc(100% - 60.5px) with 66.67% calc(100% - 52px),curve to 58.33% calc(100% - 57.5px) with 61.11% calc(100% - 69px),curve to 52.78% calc(100% - 53px) with 55.56% calc(100% - 46px),curve to 47.22% calc(100% - 32px) with 50% calc(100% - 60px),curve to 41.67% calc(100% - 17px) with 44.44% calc(100% - 4px),curve to 36.11% calc(100% - 23px) with 38.89% calc(100% - 30px),curve to 30.56% calc(100% - 35.5px) with 33.33% calc(100% - 16px),curve to 25% calc(100% - 34.5px) with 27.78% calc(100% - 55px),curve to 19.44% calc(100% - 45px) with 22.22% calc(100% - 14px),curve to 13.89% calc(100% - 78px) with 16.67% calc(100% - 76px),curve to 8.33% calc(100% - 54.5px) with 11.11% calc(100% - 80px),curve to 0 calc(100% - 40px) with 5.56% calc(100% - 29px),vline to 0);
 }
+
+@media (height <= 150px) {
+#wavy {
+    clip-path: none;
+}
+#wavy .row {
+    margin-top: 200vh;
+}
+}
+
+@media (150px < height <= 200px) {
+#wavy {
+    clip-path: none;
+}
+#wavy .row {
+    margin-top: 150vh;
+}
+}
+
+@media (200px < height <= 250px) {
+#wavy {
+    clip-path: none;
+}
+#wavy .row {
+    margin-top: 100vh;
+}
+}
+
+@media (250px < height <= 300px) {
+#wavy {
+    clip-path: none;
+}
+#wavy .row {
+    margin-top: 50vh;
+}
+}
+
+@media (300px < height <= 350px) {
+#wavy {
+    clip-path: none;
+}
+#wavy .row {
+    margin-top: 25vh;
+}
+}
